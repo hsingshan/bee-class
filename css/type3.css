@@ -1,0 +1,39 @@
+.type3-first{
+    display:flex;
+    flex-wrap:wrap-reverse;
+}
+.type3-first .paragraph1{
+    width: 50%;
+}
+.paragraph1 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.type3-first .paragraph2{
+    width: 50%;
+    margin: auto;
+    padding: 4rem;
+}
+.type3-second{
+    padding: 10rem 4rem;
+}
+.type3-first .paragraph3{
+    width: 100%;
+    padding: 10rem 4rem;
+}
+@media (max-width:800px){
+    .type3-first .paragraph1{
+        width: 100%;
+    }
+    .type3-first .paragraph2{
+        width: 100%;
+        padding: 10rem 2rem;
+    }
+    .type3-first .paragraph3{
+        padding: 10rem 2rem;
+    }
+    .type3-second{
+        padding: 10rem 2rem;
+    }
+}

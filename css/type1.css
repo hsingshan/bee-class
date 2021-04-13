@@ -1,0 +1,44 @@
+.type1-first{
+    display:flex;
+    flex-wrap:wrap-reverse;
+}
+.type1-first .paragraph1{
+    width: 50%;
+    padding: 10rem;
+}
+.paragraph1 img{
+    margin: auto;
+}
+.type1-first .paragraph2{
+    width: 50%;
+    margin: auto;
+    padding: 4rem;
+}
+.type1-second{
+    padding: 10rem 4rem;
+}
+.type1-bottom{
+    padding: 10rem 4rem;
+    background-color: #fff;
+}
+@media (max-width:800px){
+    .type1-first .paragraph1{
+        width: 100%;
+        padding: 6rem;
+    }
+    .type1-first .paragraph2{
+        width: 100%;
+        padding: 10rem 2rem;
+    }
+    .type1-second{
+        padding: 10rem 2rem;
+    }
+    .type1-bottom{
+        padding: 10rem 2rem;
+    }
+}
+@media only screen and (max-width:630px){
+    .type1-first .paragraph1{
+        padding: 0 2rem 10rem 2rem;
+    }
+}
